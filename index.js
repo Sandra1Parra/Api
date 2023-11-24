@@ -1,8 +1,8 @@
 const express = require("express");
 const mongoose = require('mongoose');
 require("dotenv").config();
-const userRoutes = require("./routes/user");
- const uri = 'mongodb+srv://Sandra1Parra:AxRnx4QQt8XUr3k4@atlascluster.lwhinls.mongodb.net/';
+const userRoutes = require("./src/routes/user");
+ const uri = 'mongodb+srv://julian:GVSkAs77Q5twlcKW@fashion.ce8hwuo.mongodb.net/';
  const app = express();
 const port = process.env.PORT || 9000;
  // Middleware
